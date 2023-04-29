@@ -1,0 +1,41 @@
+
+<div class="surface-ground px-4 py-8 md:px-6 lg:px-8">
+  <div class="p-fluid flex flex-column lg:flex-row">
+    <div class="surface-card p-5 shadow-2 border-round flex-auto">
+      <div class="text-900 font-semibold text-lg mt-3">Registro de Alcaldes/Alcaldesas</div>
+      <p-divider></p-divider>
+      <div class="flex gap-5 flex-column-reverse md:flex-row">
+        <div class="flex-auto p-fluid">
+          <div class="mb-4">
+            <label for="municipalidad" class="block font-medium text-900 mb-2">Municipalidad</label>
+            <p-dropdown id="municipalidad" [options]="munisialidades"  optionLabel="value" optionValue="name"></p-dropdown>
+          </div>
+          <div class="mb-4">
+            <label for="dni" class="block font-medium text-900 mb-2">DNI</label>
+            <input id="dni" type="text" pInputText>
+          </div>
+          <div class="mb-4">
+            <label for="nombres" class="block font-medium text-900 mb-2">Nombres</label>
+            <input id="nombres" type="text" pInputText>
+          </div>
+          <div class="mb-4">
+            <label for="apellidos" class="block font-medium text-900 mb-2">Apellidos</label>
+            <input id="apellidos" type="text" pInputText>
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block font-medium text-900 mb-2">Correo</label>
+            <input id="email" type="text" pInputText>
+          </div>
+          <div class="mb-4">
+            <label for="celular" class="block font-medium text-900 mb-2">Nro. Celular</label>
+            <input id="celular" type="text" pInputText>
+          </div>
+          <div>
+            <p-toast [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>
+            <button pButton pRipple label="Registrarme" class="w-auto"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

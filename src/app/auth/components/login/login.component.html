@@ -1,0 +1,26 @@
+<div class="flex">
+  <div class="surface-section w-full md:w-6 p-6 md:p-8" style="border-radius: 12px;">
+    <div class="mb-5">
+      <div class="text-900 text-3xl font-medium mb-3 text-center">Intranet - Allin Kawsay</div>
+    </div>
+    <div>
+      <label for="email2" class="block text-900 font-medium mb-2">DNI</label>
+      <input id="email2" type="text" placeholder="DNI" pInputText class="w-full mb-3 p-3">
+
+      <label for="password2" class="block text-900 font-medium mb-2">Contraseña</label>
+      <input id="password2" type="password" placeholder="Contraseña" pInputText class="w-full mb-3 p-3">
+
+      <div class="flex align-items-center justify-content-between mb-6">
+        <div class="flex align-items-center">
+
+        </div>
+        <a class="font-medium no-underline ml-2 text-blue-500 text-right cursor-pointer">Recuperar contraseña</a>
+      </div>
+      <div class="flex justify-content-center flex-wrap">
+        <p-button label="Ingresar" styleClass="p-button-rounded p-button-success" icon="pi pi-key"></p-button>
+        <p-button label="Registrarse" styleClass="p-button-rounded p-button-info" icon="pi pi-user" (click)="goToApp()"></p-button>
+      </div>
+    </div>
+  </div>
+  <div class="hidden md:block w-6 bg-no-repeat bg-cover" style="background-image: url('assets/img/logoSelloRegional.svg')"></div>
+</div>

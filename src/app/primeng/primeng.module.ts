@@ -10,11 +10,9 @@ import { ButtonModule} from "primeng/button";
 import { CalendarModule} from "primeng/calendar";
 import { CardModule} from "primeng/card";
 import { CarouselModule} from "primeng/carousel";
-import { ChartModule} from "primeng/chart";
 import { CheckboxModule} from "primeng/checkbox";
 import { ChipsModule} from "primeng/chips";
 import { ChipModule} from "primeng/chip";
-import { CodeHighlighterModule} from "primeng/codehighlighter";
 import { ConfirmDialogModule} from "primeng/confirmdialog";
 import { ConfirmPopupModule} from "primeng/confirmpopup";
 import { ColorPickerModule} from "primeng/colorpicker";
@@ -25,7 +23,6 @@ import { DividerModule} from "primeng/divider";
 import { DropdownModule} from "primeng/dropdown";
 import { FieldsetModule} from "primeng/fieldset";
 import { FileUploadModule} from "primeng/fileupload";
-// import { FullCalendarModule} from "primeng/fullcalendar";
 import { GalleriaModule} from "primeng/galleria";
 import { InplaceModule} from "primeng/inplace";
 import { InputNumberModule} from "primeng/inputnumber";
@@ -34,7 +31,6 @@ import { InputSwitchModule} from "primeng/inputswitch";
 import { InputTextModule} from "primeng/inputtext";
 import { InputTextareaModule} from "primeng/inputtextarea";
 import { KnobModule} from "primeng/knob";
-import { LightboxModule} from "primeng/lightbox";
 import { ListboxModule} from "primeng/listbox";
 import { MegaMenuModule} from "primeng/megamenu";
 import { MenuModule} from "primeng/menu";
@@ -43,7 +39,6 @@ import { MessageModule} from "primeng/message";
 import { MessagesModule} from "primeng/messages";
 import { MultiSelectModule} from "primeng/multiselect";
 import { OrderListModule} from "primeng/orderlist";
-import { OrganizationChartModule} from "primeng/organizationchart";
 import { OverlayPanelModule} from "primeng/overlaypanel";
 import { PaginatorModule} from "primeng/paginator";
 import { PanelModule} from "primeng/panel";
@@ -81,8 +76,9 @@ import { VirtualScrollerModule} from "primeng/virtualscroller";
 import { KeyFilterModule} from "primeng/keyfilter";
 import { BlockUIModule} from "primeng/blockui";
 import { ProgressSpinnerModule} from "primeng/progressspinner";
-import {StyleClassModule} from "primeng/styleclass";
+import { StyleClassModule } from 'primeng/styleclass';
 import {MessageService} from "primeng/api";
+import { DragDropModule } from 'primeng/dragdrop';
 
 
 @NgModule({
@@ -99,11 +95,9 @@ import {MessageService} from "primeng/api";
     CalendarModule,
     CardModule,
     CarouselModule,
-    ChartModule,
     CheckboxModule,
     ChipsModule,
     ChipModule,
-    CodeHighlighterModule,
     ConfirmDialogModule,
     ConfirmPopupModule,
     ColorPickerModule,
@@ -111,10 +105,10 @@ import {MessageService} from "primeng/api";
     DataViewModule,
     DialogModule,
     DividerModule,
+    DragDropModule,
     DropdownModule,
     FieldsetModule,
     FileUploadModule,
-    // FullCalendarModule,
     GalleriaModule,
     InplaceModule,
     InputNumberModule,
@@ -123,7 +117,6 @@ import {MessageService} from "primeng/api";
     InputTextModule,
     InputTextareaModule,
     KnobModule,
-    LightboxModule,
     ListboxModule,
     MegaMenuModule,
     MenuModule,
@@ -132,7 +125,6 @@ import {MessageService} from "primeng/api";
     MessagesModule,
     MultiSelectModule,
     OrderListModule,
-    OrganizationChartModule,
     OverlayPanelModule,
     PaginatorModule,
     PanelModule,
@@ -183,11 +175,9 @@ import {MessageService} from "primeng/api";
     CalendarModule,
     CardModule,
     CarouselModule,
-    ChartModule,
     CheckboxModule,
     ChipsModule,
     ChipModule,
-    CodeHighlighterModule,
     ConfirmDialogModule,
     ConfirmPopupModule,
     ColorPickerModule,
@@ -195,10 +185,10 @@ import {MessageService} from "primeng/api";
     DataViewModule,
     DialogModule,
     DividerModule,
+    DragDropModule,
     DropdownModule,
     FieldsetModule,
     FileUploadModule,
-    // FullCalendarModule,
     GalleriaModule,
     InplaceModule,
     InputNumberModule,
@@ -207,7 +197,6 @@ import {MessageService} from "primeng/api";
     InputTextModule,
     InputTextareaModule,
     KnobModule,
-    LightboxModule,
     ListboxModule,
     MegaMenuModule,
     MenuModule,
@@ -216,7 +205,6 @@ import {MessageService} from "primeng/api";
     MessagesModule,
     MultiSelectModule,
     OrderListModule,
-    OrganizationChartModule,
     OverlayPanelModule,
     PaginatorModule,
     PanelModule,
